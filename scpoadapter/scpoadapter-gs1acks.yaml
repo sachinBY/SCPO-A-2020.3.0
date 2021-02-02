@@ -1,0 +1,9 @@
+ack:
+  received:
+    enabled: "false"
+  processed:
+    enabled: "false"
+  error:
+    enabled: "false"
+  sent:
+    enabled: "false"
