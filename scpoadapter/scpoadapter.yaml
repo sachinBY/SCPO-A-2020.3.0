@@ -24,9 +24,9 @@ gs1:
     #release: 2020.3.0
     message: "GS1"
     scope:
-      identifier: GS1_JDA 2020.3.0
-      skuhistidentifier: GS1_JDA 2020.3.0
-      dfutoskufcstidentifier: GS1_JDA 2020.3.0
+      identifier: GS1_JDA 2020.2.0
+      skuhistidentifier: GS1_JDA 2020.2.0
+      dfutoskufcstidentifier: GS1_JDA 2020.2.0
   enable:
     validation: "true"      
   message:
