@@ -1,6 +1,6 @@
 MSDatabase:
-  user-secure: "scpomgr"
-  password-secure: "scpomgr"
+  user-secure: "SCPOMGR"
+  password-secure: "SCPOMGR"
 
 
 server:
