@@ -30,7 +30,7 @@ gs1:
   enable:
     validation: "true"      
   message:
-    size: "43738"
+    size: "100"
     plannedSupply:
       version: plannedSupplyMessage
     fcst:
