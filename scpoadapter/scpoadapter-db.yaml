@@ -3,7 +3,7 @@ scpo:
     enabled: false
   db:
     type: ""
-    blockSize: "100"
+    blockSize: "20000"
     batchCommitSize: "1000"
     batchExecuteMaxRetrial: "3"
     maxAllowedErrorsInBatch: "10"
