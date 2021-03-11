@@ -52,16 +52,19 @@ gs1:
     message: "forecast2Message"
     messageType: "forecast2"
     out:
-      message: "gs1"    
+      #message: "gs1"
+      message: "csv"
   dfutoskufcst:
     preprocessing: "true"
     message: "forecast2Message"
     out:
-      message: "gs1"    
+      #message: "gs1"
+      message: "csv"
   skuhist:
     message: "demandHistoryMessage"
     out:
-      message: "gs1"
+      #message: "gs1"
+      message: "csv"
   inventory:
     aggregation:
       categories: "AVAILABLE_FOR_SALE"    
