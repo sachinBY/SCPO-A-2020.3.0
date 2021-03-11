@@ -3,6 +3,7 @@ bulk:
     format: "XML"
     source: "SCPO"
   notification:
+    #enabled: "true"
     enabled: "false"
   serviceName: "SCPO-GLOBAL"
   serviceType: "SCPO"
@@ -21,8 +22,10 @@ bulk:
     store:
       host:
       #supported possible values are Azure Blob Store, Local File Store  
-      type: "Azure Blob Store"
-      path: 
+      #type: "Azure Blob Store"
+      #path:
+      type: "Local File Store"
+      path: "//MD1NPDVJCE01.dev.corp.local/u/SCPO"
   callback:
     # supported possible values are AzureBlob, FILE
     protocol: "FILE"
