@@ -1,6 +1,6 @@
 bulk:
   data:
-    format: "XML"
+    format: "CSV"
     source: "SCPO"
   notification:
     #enabled: "true"
