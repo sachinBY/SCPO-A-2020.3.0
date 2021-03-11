@@ -26,7 +26,7 @@ bulk:
       #path:
       type: "Local File Store"
       #path: "//MD1NPDVJCE01.dev.corp.local/u/SCPO"
-      path: "C:\Tools\u\SCPO_OUTBOUND"
+      path: "\\md1npdvjce01.dev.corp.local\Tools\u\SCPO_OUTBOUND"
   callback:
     # supported possible values are AzureBlob, FILE
     protocol: "FILE"
